@@ -1,0 +1,381 @@
+@media (max-width: 640px) {
+    .header {
+        padding: 25px 0;
+    }
+
+    .header .logo .search input[type=text] {
+        display: none;
+    }
+
+    .header .logo .userful {
+        display: none;
+    }
+
+    .menu-list {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu-list img {
+        width: 100%;
+    }
+
+    .navigation>ul {
+        opacity: 0;
+        transition: all 0.8s ease-in-out;
+        margin-top: -300px;
+    }
+
+    .navigation input[type="checkbox"]:checked~ul {
+        opacity: 1;
+        transition: all 0.8s ease-in-out;
+        margin: 0;
+
+    }
+
+    .navigation ul li {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .navigation ul li a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content .aside {
+        width: 100%;
+    }
+
+    .content .article {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .center-content {
+        width: 90%;
+    }
+
+    .center-content h1 {
+        font-size: 1.3em;
+    }
+
+    .center-content .welcomeanimous {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .center-content .welcomeanimous .animous-phrase {
+        width: 100%;
+        height: 100px;
+        font-size: 12px;
+        margin: 0;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .center-content .picandtext div {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .center-content .picandtext .text-expecially {
+        border: none;
+        padding: 0 5px;
+        margin: 0;
+    }
+
+    .center-content .picandtext .img-expecially {
+        margin: 0;
+        padding: 0;
+    }
+
+    .center-content .catforthink p {
+        font-size: 1.2em;
+    }
+
+    .center-content .catforthink div span {
+        padding-top: 50px;
+        line-height: 40px;
+        font-size: 1em;
+    }
+
+    .center-content .catforthink div i {
+        font-size: 1, 3em;
+    }
+
+    .center-content .ourservices p {
+        font-size: 1.2em;
+    }
+
+    .center-content .ourservices h5 {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 1em;
+    }
+
+    .center-content .ourservices .servicelist {
+        flex-flow: column;
+    }
+
+    .center-content .ourservices .servicelist .list-left {
+        width: 50%;
+        height: auto;
+        text-align: center;
+        margin: 0px auto;
+        padding-top: 5px;
+        transition: all 0.3 ease-in-out;
+    }
+
+    .center-content .ourservices .servicelist .list-right {
+        width: 350px;
+        height: 350px;
+        margin: 5px auto;
+    }
+
+    .server-doctor {
+        width: 100%;
+        height: 100%;
+    }
+
+    .server-doctor .server-mask p {
+        font-size: 1em;
+    }
+
+    .server-doctor .server-mask a {
+        font-size: 0.7em;
+    }
+
+
+
+    footer .footer-navigation {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 30px;
+        z-index: 999;
+
+    }
+
+    footer .footer-navigation ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    footer .footer-navigation li {
+        display: inline-block;
+        width: 50px;
+        height: 20px;
+        text-align: center;
+    }
+
+    footer .footer-navigation li a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        font-size: 0.8em;
+        font-family: English3;
+        color: #6441a5;
+    }
+
+    footer .footer-navigation li a:hover {
+        color: #4b6cb7;
+        letter-spacing: 0.1em;
+    }
+
+    footer .share {
+        width: 120px;
+        height: 20px;
+        bottom: 30%;
+        right: 0;
+        background-size: 120px;
+    }
+
+    footer .share:hover {
+        background-position: 0 -20px;
+    }
+
+
+    .special-service {
+        width: 90%;
+        height: auto;
+    }
+
+    .special-service ul li {
+        width: 45%;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content .aside {
+        width: 100%;
+        height: auto;
+    }
+
+    .content .article {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .big-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .big-img h3 {
+        top: 5%;
+        font-size: 1em;
+    }
+
+    .big-img .icon-box {
+        width: 90%;
+        height: auto;
+        left: 5%;
+        top: 20px;
+    }
+
+    .icon-eyes,
+    .icon-cat,
+    .icon-heart,
+    .icon-neike {
+        width: 25%;
+        height: 120px;
+        padding-top: 15px;
+        margin-left: 5px;
+    }
+
+    .icon-eyes span,
+    .icon-cat span,
+    .icon-heart span,
+    .icon-neike span {
+        height: 40px;
+        line-height: 40px;
+        margin-top: 10px;
+        font-size: 0.7em;
+    }
+
+    .big-img .learnmore {
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        border: 5px;
+        left: 38%;
+        font-size: 0.7em;
+    }
+
+    .content .article .physical-examination .title-img,
+    .medical-care .title-img,
+    .cosmetology .title-img,
+    .articles-for-use .title-img {
+        left: 37%;
+    }
+
+    .content .article .physical-examination .physical-text,
+    .medical-care .medical-text,
+    .cosmetology .cosmetology-text,
+    .articles-for-use .articles-text {
+        width: 90%;
+        height: 80%;
+        border-radius: 1em;
+    }
+
+    .content .article .physical-examination h2,
+    .medical-care h2,
+    .cosmetology h2,
+    .articles-for-use h2 {
+        padding: 1em 0;
+    }
+
+    .content .article .introduce h4 {
+        width: 90%;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content .about {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .content .about .about-img {
+        width: 40%;
+        background-size: 180px;
+    }
+
+    .content .about .about-text {
+        width: 60%;
+        font-size: 0.6em;
+    }
+
+    .content .article-box {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .content .article-box h2 {
+        font-size: 1.2em;
+    }
+
+    .content .article-box p {
+        font-size: 0.6em;
+    }
+
+    .content .article-box1,
+    .article-box2 {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .content .why-choose-us {
+        margin: 2em auto;
+    }
+
+    .content .why-choose-us .set {
+        top: 20%;
+    }
+
+    .content .why-choose-us .set img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .content .why-choose-us .set1 span,
+    .set2 span,
+    .set3 span {
+        width: 50px;
+        height: 50px;
+        line-height: 40px;
+        left: 20%;
+        top: -50px;
+    }
+
+    .content .why-choose-us h5 {
+        font-size: 0.7em;
+        margin-bottom: 0.3em;
+    }
+
+    .content .why-choose-us p {
+        font-size: 0.4em;
+    }
+
+
+
+
+}

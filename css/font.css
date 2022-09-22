@@ -1,0 +1,32 @@
+@font-face {
+
+    font-family: Chinese1;
+    src: url(../font/Fineround.TTF);
+}
+
+@font-face {
+
+    font-family: Chinese2;
+    src: url(../font/lanting-slender.TTF);
+}
+
+@font-face {
+
+    font-family: Chinese3;
+    src: url(../font/lanting.TTF);
+}
+
+@font-face {
+    font-family: English1;
+    src: url(../font/BROADW.TTF);
+}
+
+@font-face {
+    font-family: English2;
+    src: url(../font/GOTHIC.TTF);
+}
+
+@font-face {
+    font-family: English3;
+    src: url(../font/SlimJoe.otf);
+}
